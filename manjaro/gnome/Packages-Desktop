@@ -288,3 +288,4 @@ xorg-server                        # required by gdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
 #xorg-xinit                        # not needed by anything
 
+audacity
