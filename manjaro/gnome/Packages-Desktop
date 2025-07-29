@@ -257,7 +257,8 @@ power-profiles-daemon              # optional for gnome-control-center
 >extra unace
 >extra unrar
 file-roller                         # kamarada/features#7 - GUI - Utilities - Archive
-rar                                 # kamarada/features#8 - CLI - Archiving programs
+#rar                                # kamarada/features#8 - CLI - Archiving programs
+# TODO is it possible to include packages from the AUR?
 tar                                 # kamarada/features#8 - CLI - Archiving programs
 unrar                               # kamarada/features#8 - CLI - Archiving programs
 unzip                               # kamarada/features#8 - CLI - Archiving programs
