@@ -86,7 +86,7 @@ gnome-control-center
 gnome-shell
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
-gnome-system-monitor
+gnome-system-monitor                # kamarada/features#9 - GUI - Utilities - System monitor
 gnome-text-editor                   # kamarada/features#4 - GUI - Accessories - Text editor
 >extra gnome-tour
 gnome-user-docs
