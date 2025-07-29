@@ -70,7 +70,7 @@ gnome-calculator
 >extra gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
 >extra gnome-connections
-gnome-console
+gnome-console                       # kamarada/features#1 - GUI - System - Terminal
 >extra gnome-contacts
 gnome-control-center
 >extra gnome-disk-utility
