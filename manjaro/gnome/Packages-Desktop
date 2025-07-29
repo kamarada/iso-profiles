@@ -129,7 +129,7 @@ totem
 >extra endeavour
 #eog                               # loupe included instead
 #evolution                         # thunderbird included instead
-file-roller
+file-roller                         # kamarada/features#7 - GUI - Utilities - Archive manager
 #>extra geary                      # thunderbird included instead
 #gedit                             # using gnome-text-editor for now
 #ghex
