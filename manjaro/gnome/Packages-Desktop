@@ -106,7 +106,7 @@ gvfs
 >extra gvfs-wsdd
 >extra loupe                       # gthumb in full edition
 >extra malcontent                         # optional for gnome-control-center
-nautilus
+nautilus                            # kamarada/features#2 - GUI - Accessories - File manager
 #orca
 >extra rygel                       # optional for gnome-control-center
 >extra simple-scan
