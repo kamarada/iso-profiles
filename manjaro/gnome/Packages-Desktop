@@ -292,3 +292,4 @@ xorg-server                        # required by gdm
 ## Other (added by Linux Kamarada)
 
 >extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
+vlc                                 # kamarada/features#6 - GUI - Sound & Video - Media player
