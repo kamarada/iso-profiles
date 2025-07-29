@@ -59,24 +59,24 @@ pamac-gtk
 ## GNOME group
 
 >extra baobab
-decibels
+>extra decibels
 #epiphany                          # Firefox included as default browser
-evince                             # required by sushi; evince soon to be replaced by papers
+>extra evince                             # required by sushi; evince soon to be replaced by papers
 gdm
 gnome-backgrounds
 gnome-calculator
-gnome-calendar
+>extra gnome-calendar
 >extra gnome-characters
-gnome-clocks
+>extra gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
 >extra gnome-connections
 gnome-console
 >extra gnome-contacts
 gnome-control-center
-gnome-disk-utility
+>extra gnome-disk-utility
 >extra gnome-font-viewer
 #gnome-keyring                     # required by xdg-desktop-portal-gnome
-gnome-logs
+>extra gnome-logs
 >extra gnome-maps
 #gnome-menus                       # optional for gnome-shell-extension-arc-menu
 #gnome-music                       # lollypop included instead
@@ -88,10 +88,10 @@ gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
 gnome-text-editor
-gnome-tour
+>extra gnome-tour
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
-gnome-weather
+>extra gnome-weather
 >extra grilo-plugins               # optional for totem
 gvfs
 >extra gvfs-afc
@@ -104,8 +104,8 @@ gvfs
 >extra gvfs-onedrive               # optional for gnome-online-accounts
 >extra gvfs-smb
 >extra gvfs-wsdd
->basic loupe                       # gthumb in full edition
-malcontent                         # optional for gnome-control-center
+>extra loupe                       # gthumb in full edition
+>extra malcontent                         # optional for gnome-control-center
 nautilus
 #orca
 >extra rygel                       # optional for gnome-control-center
@@ -230,7 +230,7 @@ htop
 ibus
 inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
-lollypop
+>extra lollypop
 manjaro-application-utility        # optional for manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
