@@ -252,12 +252,16 @@ power-profiles-daemon              # optional for gnome-control-center
 
 
 ## Optional dependencies for file-roller
->extra 7zip
+7zip                                # kamarada/features#8 - CLI - Archiving programs
 >extra squashfs-tools
 >extra unace
 >extra unrar
-#>extra unzip                      # required by gnome-shell
->extra zip
+file-roller                         # kamarada/features#7 - GUI - Utilities - Archive
+rar                                 # kamarada/features#8 - CLI - Archiving programs
+tar                                 # kamarada/features#8 - CLI - Archiving programs
+unrar                               # kamarada/features#8 - CLI - Archiving programs
+unzip                               # kamarada/features#8 - CLI - Archiving programs
+zip                                 # kamarada/features#8 - CLI - Archiving programs
 
 
 ## Optional dependencies for inxi
