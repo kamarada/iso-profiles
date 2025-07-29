@@ -64,7 +64,7 @@ pamac-gtk
 >extra evince                             # required by sushi; evince soon to be replaced by papers
 gdm
 gnome-backgrounds
-gnome-calculator
+gnome-calculator                    # kamarada/features#3 - GUI - Accessories - Calculator
 >extra gnome-calendar
 >extra gnome-characters
 >extra gnome-clocks
