@@ -71,7 +71,7 @@ gnome-calculator                    # kamarada/features#3 - GUI - Accessories - 
 #gnome-color-manager               # required by gnome-control-center
 >extra gnome-connections
 gnome-console                       # kamarada/features#1 - GUI - System - Terminal
->extra gnome-contacts
+>extra gnome-contacts               # kamarada/features#13 - GUI - Office - Address book
 gnome-control-center
 >extra gnome-disk-utility
 >extra gnome-font-viewer
