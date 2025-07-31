@@ -297,4 +297,5 @@ xorg-server                        # required by gdm
 ## Other (added by Linux Kamarada)
 
 >extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
+>extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
 vlc                                 # kamarada/features#6 - GUI - Sound & Video - Media player
