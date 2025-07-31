@@ -65,7 +65,7 @@ pamac-gtk
 gdm
 gnome-backgrounds
 gnome-calculator                    # kamarada/features#3 - GUI - Accessories - Calculator
->extra gnome-calendar
+>extra gnome-calendar               # kamarada/features#12 - GUI - Office - Calendar
 >extra gnome-characters
 >extra gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
