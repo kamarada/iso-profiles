@@ -145,7 +145,7 @@ file-roller                         # kamarada/features#7 - GUI - Utilities - Ar
 #gnome-notes
 #gnome-photos
 #gnome-recipes
-#gnome-sound-recorder
+>extra gnome-sound-recorder         # kamarada/features#18 - GUI - Sound & Video - Sound recorder
 #gnome-terminal                   # gnome-console used instead
 gnome-tweaks
 #gnome-usage
