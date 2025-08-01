@@ -111,7 +111,7 @@ nautilus                            # kamarada/features#2 - GUI - Accessories - 
 #orca
 >extra rygel                       # optional for gnome-control-center
 >extra simple-scan                  # kamarada/features#16 - GUI - Graphics - Scanning
->extra snapshot
+>extra snapshot                     # kamarada/features#19 - GUI - Sound & Video - Webcam application
 >extra sushi
 #tecla                             # required by gnome-control-center
 >extra totem
