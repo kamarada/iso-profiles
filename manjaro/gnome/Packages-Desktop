@@ -110,7 +110,7 @@ gvfs
 nautilus                            # kamarada/features#2 - GUI - Accessories - File manager
 #orca
 >extra rygel                       # optional for gnome-control-center
->extra simple-scan
+>extra simple-scan                  # kamarada/features#16 - GUI - Graphics - Scanning
 >extra snapshot
 >extra sushi
 #tecla                             # required by gnome-control-center
