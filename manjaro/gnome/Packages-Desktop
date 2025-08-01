@@ -61,7 +61,8 @@ pamac-gtk
 >extra baobab
 >extra decibels
 #epiphany                          # Firefox included as default browser
->extra evince                             # required by sushi; evince soon to be replaced by papers
+#>extra evince                             # required by sushi; evince soon to be replaced by papers
+>extra papers                       # kamarada/features#15 - GUI - Utilities - Document viewer
 gdm
 gnome-backgrounds
 gnome-calculator                    # kamarada/features#3 - GUI - Accessories - Calculator
