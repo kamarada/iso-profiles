@@ -156,20 +156,21 @@ gnome-tweaks                        # kamarada/features#22 - GUI - Utilities - T
 
 ## GNOME Extra games
 
+>extra aisleriot                    # kamarada/features#23 - GUI - Games - Aisleriot (Solitaire)
 #gnome-2048
->extra gnome-chess
+>extra gnome-chess                  # kamarada/features#23 - GUI - Games - Chess
 #gnome-klotski
-#gnome-mahjongg
->extra gnome-mines
-#gnome-nibbles
+>extra gnome-mahjongg               # kamarada/features#23 - GUI - Games - Mahjongg
+>extra gnome-mines                  # kamarada/features#23 - GUI - Games - Mines
+>extra gnome-nibbles                # kamarada/features#23 - GUI - Games - Sudoku
 #gnome-robots
-#gnome-sudoku
+>extra gnome-sudoku                 # kamarada/features#23 - GUI - Games - Nibbles (Snake)
 #gnome-taquin
 #gnome-tetravex
 #hitori
->extra iagno
+>extra iagno                        # kamarada/features#23 - GUI - Games - Iagno (Reversi)
 #lightsoff
->extra quadrapassel
+>extra quadrapassel                 # kamarada/features#23 - GUI - Games - Quadrapassel (Tetris)
 #swell-foop
 #tali
 
