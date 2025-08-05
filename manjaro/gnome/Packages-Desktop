@@ -58,8 +58,8 @@ pamac-gtk
 
 ## GNOME group
 
->extra baobab
->extra decibels
+>extra baobab                       # kamarada/features#20 - GUI - GNOME Core Apps
+#>extra decibels                    # vlc included instead
 #epiphany                          # Firefox included as default browser
 #>extra evince                             # required by sushi; evince soon to be replaced by papers
 >extra papers                       # kamarada/features#15 - GUI - Utilities - Document viewer
@@ -67,20 +67,20 @@ gdm
 gnome-backgrounds
 gnome-calculator                    # kamarada/features#3 - GUI - Accessories - Calculator
 >extra gnome-calendar               # kamarada/features#12 - GUI - Office - Calendar
->extra gnome-characters
->extra gnome-clocks
+>extra gnome-characters             # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-clocks                 # kamarada/features#20 - GUI - GNOME Core Apps
 #gnome-color-manager               # required by gnome-control-center
->extra gnome-connections
+>extra gnome-connections            # kamarada/features#20 - GUI - GNOME Core Apps
 gnome-console                       # kamarada/features#1 - GUI - System - Terminal
 >extra gnome-contacts               # kamarada/features#13 - GUI - Office - Address book
-gnome-control-center
->extra gnome-disk-utility
->extra gnome-font-viewer
+gnome-control-center                # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-disk-utility           # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-font-viewer            # kamarada/features#20 - GUI - GNOME Core Apps
 #gnome-keyring                     # required by xdg-desktop-portal-gnome
->extra gnome-logs
->extra gnome-maps
+>extra gnome-logs                   # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-maps                   # kamarada/features#20 - GUI - GNOME Core Apps
 #gnome-menus                       # optional for gnome-shell-extension-arc-menu
-#gnome-music                       # lollypop included instead
+#gnome-music                        # vlc included instead
 >extra gnome-remote-desktop        # optional for gnome-control-center
 #gnome-session                     # required by gdm & gnome-shell
 #gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
@@ -89,7 +89,7 @@ gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor                # kamarada/features#9 - GUI - Utilities - System monitor
 gnome-text-editor                   # kamarada/features#4 - GUI - Accessories - Text editor
->extra gnome-tour
+#>extra gnome-tour                  # won't be included
 >extra gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 >extra gnome-weather
@@ -114,10 +114,10 @@ nautilus                            # kamarada/features#2 - GUI - Accessories - 
 >extra snapshot                     # kamarada/features#19 - GUI - Sound & Video - Webcam application
 >extra sushi
 #tecla                             # required by gnome-control-center
->extra totem
+#>extra totem                       # vlc included instead
 #xdg-desktop-portal-gnome          # required by gnome-session
 #xdg-user-dirs-gtk                 # required by nautilus
-#yelp                              # required by gnome-user-docs
+>extra yelp                         # kamarada/features#20 - GUI - GNOME Core Apps
 
 
 ## GNOME Extra applications
