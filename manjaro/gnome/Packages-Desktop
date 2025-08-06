@@ -225,6 +225,7 @@ gnome-browser-connector
 >extra gnome-firmware
 >extra gnome-layout-switcher
 >extra gnuchess                    # optional for gnome-chess to play against computer
+>extra gparted                      # kamarada/features#25 - GUI - System - Partition manager
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
 >extra htop
