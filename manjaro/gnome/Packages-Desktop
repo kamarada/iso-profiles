@@ -46,7 +46,7 @@ ttf-meslo-nerd-font-powerlevel10k  # default GNOME Console font for manjaro-zsh-
 
 pamac-gnome-integration
 >extra pamac-flatpak-plugin
-pamac-gtk
+pamac-gtk                           # kamarada/features#26 - GUI - System - Package updater
 #>extra pamac-snap-plugin
 
 
