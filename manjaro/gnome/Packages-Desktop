@@ -300,6 +300,7 @@ xorg-server                        # required by gdm
 
 >extra brasero                      # kamarada/features#29 - GUI - Sound & Video - CD/DVD burner
 >extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
+>extra drawing                      # kamarada/features#31 - GUI - Graphics - Drawing
 >extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
 >extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
 >extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
