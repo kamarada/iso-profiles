@@ -70,7 +70,7 @@ gnome-calculator                    # kamarada/features#3 - GUI - Accessories - 
 >extra gnome-characters             # kamarada/features#20 - GUI - GNOME Core Apps
 >extra gnome-clocks                 # kamarada/features#20 - GUI - GNOME Core Apps
 #gnome-color-manager               # required by gnome-control-center
->extra gnome-connections            # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-connections            # kamarada/features#35 - GUI - Utilities - Remote desktop client
 gnome-console                       # kamarada/features#1 - GUI - System - Terminal
 >extra gnome-contacts               # kamarada/features#13 - GUI - Office - Address book
 gnome-control-center                # kamarada/features#20 - GUI - GNOME Core Apps
