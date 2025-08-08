@@ -1,5 +1,6 @@
 ## Network
 
+avahi                               # kamarada/features#41 - Printing support
 >extra manjaro-modem
 networkmanager                     # optional for gnome-control-center
 >extra networkmanager-openconnect
@@ -52,8 +53,8 @@ pamac-gtk                           # kamarada/features#26 - GUI - System - Pack
 
 ## Printing
 
->extra manjaro-printer
->extra system-config-printer       # optional for gnome-control-center & manjaro-printer
+>extra manjaro-printer              # kamarada/features#41 - Printing support
+>extra system-config-printer        # kamarada/features#41 - Printing support
 
 
 ## GNOME group
@@ -302,6 +303,7 @@ xorg-server                        # required by gdm
 >extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
 >extra drawing                      # kamarada/features#31 - GUI - Graphics - Drawing
 >extra gnome-power-manager          # kamarada/features#33 - GUI - System - Power statistics
+>extra hplip                        # kamarada/features#41 - Printing support
 >extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
 >extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
 >extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
