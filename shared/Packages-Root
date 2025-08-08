@@ -71,4 +71,5 @@ xfsprogs
 
 # Other (added by Linux Kamarada)
 
-joe                         # kamarada/features#37 - CLI - Text editor
+#joe                        # kamarada/features#37 - CLI - Text editor
+# TODO is it possible to include packages from the AUR?
