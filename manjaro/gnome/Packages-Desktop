@@ -326,6 +326,8 @@ xorg-server                        # required by gdm
 >extra pcsc-tools                   # kamarada/features#43 - Smart card support
 #>extra pdfsam                      # kamarada/features#32 - GUI - Office - PDFsam
 # TODO is it possible to include packages from the AUR?
+>extra pidgin                       # kamarada/features#45 - GUI - Internet - Instant messaging client
+>extra purple-plugin-pack           # kamarada/features#45 - GUI - Internet - Instant messaging client
 >extra transmission-gtk             # kamarada/features#30 - GUI - Internet - BitTorrent client
 vlc                                 # kamarada/features#6 - GUI - Sound & Video - Media player
 >extra wine                         # kamarada/features#44 - Wine
