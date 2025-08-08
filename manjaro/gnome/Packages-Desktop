@@ -15,6 +15,13 @@ networkmanager                     # optional for gnome-control-center
 #usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
 
 
+## Bluetooth
+
+>extra bluez                        # kamarada/features#42 - Bluetooth support
+>extra bluez-obex                   # kamarada/features#42 - Bluetooth support
+>extra bluez-utils                  # kamarada/features#42 - Bluetooth support
+
+
 ## Btrfs
 
 btrfsmaintenance
