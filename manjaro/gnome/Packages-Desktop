@@ -304,9 +304,15 @@ xorg-server                        # required by gdm
 #xorg-xinit                        # not needed by anything
 
 
+## Other
+
+>extra pcsclite                     # kamarada/features#43 - Smart card support
+
+
 ## Other (added by Linux Kamarada)
 
 >extra brasero                      # kamarada/features#29 - GUI - Sound & Video - CD/DVD burner
+>extra ccid                         # kamarada/features#43 - Smart card support
 >extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
 >extra drawing                      # kamarada/features#31 - GUI - Graphics - Drawing
 >extra gnome-power-manager          # kamarada/features#33 - GUI - System - Power statistics
@@ -314,6 +320,8 @@ xorg-server                        # required by gdm
 >extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
 >extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
 >extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
+>extra opensc                       # kamarada/features#43 - Smart card support
+>extra pcsc-tools                   # kamarada/features#43 - Smart card support
 #>extra pdfsam                      # kamarada/features#32 - GUI - Office - PDFsam
 # TODO is it possible to include packages from the AUR?
 >extra transmission-gtk             # kamarada/features#30 - GUI - Internet - BitTorrent client
