@@ -317,6 +317,8 @@ xorg-server                        # required by gdm
 >extra drawing                      # kamarada/features#31 - GUI - Graphics - Drawing
 >extra gnome-power-manager          # kamarada/features#33 - GUI - System - Power statistics
 >extra hplip                        # kamarada/features#41 - Printing support
+#>extra icoextract                  # kamarada/features#44 - Wine
+# TODO is it possible to include packages from the AUR?
 >extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
 >extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
 >extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
@@ -326,3 +328,6 @@ xorg-server                        # required by gdm
 # TODO is it possible to include packages from the AUR?
 >extra transmission-gtk             # kamarada/features#30 - GUI - Internet - BitTorrent client
 vlc                                 # kamarada/features#6 - GUI - Sound & Video - Media player
+>extra wine                         # kamarada/features#44 - Wine
+>extra wine-gecko                   # kamarada/features#44 - Wine
+>extra wine-mono                    # kamarada/features#44 - Wine
