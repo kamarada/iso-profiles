@@ -116,7 +116,7 @@ nautilus                            # kamarada/features#2 - GUI - Accessories - 
 #tecla                             # required by gnome-control-center
 #>extra totem                       # vlc included instead
 #xdg-desktop-portal-gnome          # required by gnome-session
-#xdg-user-dirs-gtk                 # required by nautilus
+xdg-user-dirs-gtk                   # kamarada/features#39 - XDG user directories
 >extra yelp                         # kamarada/features#20 - GUI - GNOME Core Apps
 
 
