@@ -28,6 +28,7 @@ intel-ucode
 jfsutils
 KERNEL
 less
+>extra links                # kamarada/features#52 - CLI - Web browser
 wireless-regdb
 linux-firmware
 logrotate
