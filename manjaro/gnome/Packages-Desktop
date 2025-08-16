@@ -192,7 +192,7 @@ gnome-tweaks                        # kamarada/features#22 - GUI - Utilities - T
 >extra gnome-shell-extension-forge
 >extra gnome-shell-extension-gtk4-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
->extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-gsconnect  # kamarada/features#58 - GSConnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
 >extra gnome-shell-extension-space-bar
 #>extra gnome-shell-extension-x11gestures  # not updated for GNOME 48
