@@ -59,6 +59,7 @@ sof-firmware
 sudo
 sysfsutils
 texinfo
+>extra tor                  # kamarada/features#53 - Tor support
 update-grub
 udev-usb-sync
 usbutils
