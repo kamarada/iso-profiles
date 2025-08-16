@@ -322,6 +322,7 @@ xorg-server                        # required by gdm
 >extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
 >extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
 >extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
+>extra nm-connection-editor         # kamarada/features#57 - GUI - Utilities - Advanced Network Configuration
 >extra opensc                       # kamarada/features#43 - Smart card support
 >extra pcsc-tools                   # kamarada/features#43 - Smart card support
 #>extra pdfsam                      # kamarada/features#32 - GUI - Office - PDFsam
