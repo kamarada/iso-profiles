@@ -20,6 +20,7 @@ ecryptfs-utils
 efibootmgr
 exfatprogs
 f2fs-tools
+>extra flatpak              # kamarada/features#54 - Flatpak support
 glibc-locales
 grub
 install-grub
