@@ -7,11 +7,13 @@ acpid
 amd-ucode
 b43-fwcutter
 btrfs-progs
+coreutils                   # kamarada/features#60 - CLI - Hardware utilities - df
 cpupower
 cronie
 cryptsetup
 device-mapper
 diffutils
+dmidecode                   # kamarada/features#60 - CLI - Hardware utilities - dmidecode
 dmraid
 dnsmasq
 dosfstools
@@ -23,9 +25,12 @@ f2fs-tools
 >extra flatpak              # kamarada/features#54 - Flatpak support
 glibc-locales
 grub
+hdparm                      # kamarada/features#60 - CLI - Hardware utilities - hdparm
+hwinfo                      # kamarada/features#60 - CLI - Hardware utilities - hwinfo
 install-grub
 inetutils                   # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
 intel-ucode
+inxi                        # kamarada/features#60 - CLI - Hardware utilities - inxi
 jfsutils
 KERNEL
 less
@@ -33,6 +38,7 @@ less
 wireless-regdb
 linux-firmware
 logrotate
+lshw                        # kamarada/features#60 - CLI - Hardware utilities - lshw
 lvm2
 man-db
 man-pages
@@ -52,10 +58,13 @@ networkmanager
 nfs-utils
 ntfs-3g
 os-prober
+pciutils                    # kamarada/features#60 - CLI - Hardware utilities - lspci
 perl
+procps-ng                   # kamarada/features#60 - CLI - Hardware utilities - free, top
 rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
 s-nail                      # kamarada/features#59 - CLI - Network utilities - mailx
 sbctl
+sensors                     # kamarada/features#60 - CLI - Hardware utilities - sensors
 sof-firmware
 sudo
 sysfsutils
@@ -63,7 +72,8 @@ texinfo
 >extra tor                  # kamarada/features#53 - Tor support
 update-grub
 udev-usb-sync
-usbutils
+usbutils                    # kamarada/features#60 - CLI - Hardware utilities - lsusb
+util-linux                  # kamarada/features#60 - CLI - Hardware utilities - blkid, fdisk, lsblk, lscpu
 vi                          # kamarada/features#37 - CLI - Text editor
 vim                         # kamarada/features#37 - CLI - Text editor
 wget                        # kamarada/features#59 - CLI - Network utilities - wget
