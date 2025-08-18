@@ -24,7 +24,7 @@ f2fs-tools
 glibc-locales
 grub
 install-grub
-inetutils
+inetutils                   # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
 intel-ucode
 jfsutils
 KERNEL
@@ -53,8 +53,8 @@ nfs-utils
 ntfs-3g
 os-prober
 perl
-rsync
-s-nail
+rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
+s-nail                      # kamarada/features#59 - CLI - Network utilities - mailx
 sbctl
 sof-firmware
 sudo
@@ -66,7 +66,7 @@ udev-usb-sync
 usbutils
 vi                          # kamarada/features#37 - CLI - Text editor
 vim                         # kamarada/features#37 - CLI - Text editor
-wget
+wget                        # kamarada/features#59 - CLI - Network utilities - wget
 which
 wireless-regdb
 wpa_supplicant
@@ -74,5 +74,16 @@ xfsprogs
 
 # Other (added by Linux Kamarada)
 
+bind                        # kamarada/features#59 - CLI - Network utilities - dig, host and nslookup
+curl                        # kamarada/features#59 - CLI - Network utilities - curl
+iproute2                    # kamarada/features#59 - CLI - Network utilities - ip and ss (netstat's replacement)
+iputils                     # kamarada/features#59 - CLI - Network utilities - ping and tracepath
 #joe                        # kamarada/features#37 - CLI - Text editor
 # TODO is it possible to include packages from the AUR?
+mutt                        # kamarada/features#59 - CLI - Network utilities - mutt
+nmap                        # kamarada/features#59 - CLI - Network utilities - nmap
+openbsd-netcat              # kamarada/features#59 - CLI - Network utilities - nc (netcat)
+screen                      # kamarada/features#59 - CLI - Network utilities - screen
+tcpdump                     # kamarada/features#59 - CLI - Network utilities - tcpdump
+traceroute                  # kamarada/features#59 - CLI - Network utilities - traceroute
+whois                       # kamarada/features#59 - CLI - Network utilities - whois
