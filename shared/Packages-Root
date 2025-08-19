@@ -39,6 +39,7 @@ jfsutils                    # kamarada/features#62 - CLI - Filesystem utilities 
 KERNEL
 less
 >extra links                # kamarada/features#52 - CLI - Web browser
+lm_sensors                  # kamarada/features#60 - CLI - Hardware utilities - sensors
 wireless-regdb
 linux-firmware
 logrotate
@@ -72,7 +73,6 @@ procps-ng                   # kamarada/features#60 - CLI - Hardware utilities - 
 rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
 s-nail                      # kamarada/features#59 - CLI - Network utilities - mailx
 sbctl
-sensors                     # kamarada/features#60 - CLI - Hardware utilities - sensors
 sof-firmware
 sudo
 sysfsutils
