@@ -135,7 +135,6 @@ file-roller
 #gnome-sound-recorder
 gnome-tweaks
 #gnome-usage
-#polari
 #sysprof                           # developer tools
 
 
@@ -150,6 +149,65 @@ gnome-tweaks
 #lightsoff
 >extra quadrapassel
 #swell-foop
+
+
+## GNOME Circle group
+
+#amberol
+#apostrophe
+#authenticator
+#biblioteca
+#binary
+#blanket
+#bustle
+#cartridges
+#citations
+#clairvoyant
+>extra collision
+#commit
+#curtail
+#eartag
+#eyedropper
+#decoder
+>extra deja-dup
+#dialect
+#elastic
+#emblem
+#errands
+#forge-sparks
+>extra fragments
+#fretboard
+#gaphor
+#gnome-podcasts
+#graphs
+#health
+#hieroglyphic
+#identity
+#impression
+#iotas
+#junction
+#letterpress
+#lorem
+#mousai
+#newsflash
+#obfuscate
+#paper-clip
+#pika-backup
+#polari
+#railway
+#resources
+#secrets
+#share-preview
+#solanum
+#switcheroo
+>extra tangram
+#textpieces
+#tuba
+#valuta
+#video-trimmer
+#warp
+#webfont-kit-generator
+#wike
 
 
 ## GNOME Shell Extensions
@@ -177,7 +235,6 @@ gnome-themes-extra                 # optional for gtk2
 grub-theme-manjaro
 kvantum-manjaro
 #>extra illyria-wallpaper
-#manjaro-gdm-theme                 # Needs updating for GNOME 42
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
@@ -191,16 +248,12 @@ qt6ct
 ## Applications
 
 >extra apparmor
->extra collision
->extra deja-dup
-#eog
 #evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
 firefox
 fprintd                            # needed for fingerprint reader, optional for gdm
 #fwupd                             # required by gnome-firmware, optional for gnome-control-center
->extra fragments
 gnome-browser-connector
 gnome-firmware
 #gnome-games
@@ -234,7 +287,6 @@ power-profiles-daemon              # optional for gnome-control-center
 >extra timeshift
 #tlp                               # conflicts with power-profiles-daemon
 #>extra touche                     # only works with Xorg
->extra webapp-manager
 #xdg-utils                         # already a dependency of anything that requires it
 
 
