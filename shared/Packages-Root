@@ -12,11 +12,10 @@ coreutils                   # kamarada/features#60 - CLI - Hardware utilities - 
 cpupower
 cronie
 cryptsetup                  # kamarada/features#62 - CLI - Filesystem utilities - luks
-device-mapper
+device-mapper               # kamarada/features#62 - CLI - Filesystem utilities - luks
 diffutils
 dmidecode                   # kamarada/features#60 - CLI - Hardware utilities - dmidecode
 dmraid
-dmsetup                     # kamarada/features#62 - CLI - Filesystem utilities - luks
 dnsmasq
 dosfstools                  # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
 e2fsprogs                   # kamarada/features#62 - CLI - Filesystem utilities - ext2, ext3, ext4
