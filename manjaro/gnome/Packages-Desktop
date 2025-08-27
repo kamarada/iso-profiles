@@ -316,11 +316,9 @@ xorg-server                        # required by gdm
 >extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
 >extra drawing                      # kamarada/features#31 - GUI - Graphics - Drawing
 >extra gnome-power-manager          # kamarada/features#33 - GUI - System - Power statistics
-#>extra gnome-shell-extension-lockkeys  # kamarada/features#61 - Lock Keys
-# TODO is it possible to include packages from the AUR?
+>extra gnome-shell-extension-lockkeys   # kamarada/features#61 - Lock Keys
 >extra hplip                        # kamarada/features#41 - Printing support
-#>extra icoextract                  # kamarada/features#44 - Wine
-# TODO is it possible to include packages from the AUR?
+>extra icoextract                   # kamarada/features#44 - Wine
 >extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
 >extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
 >extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite

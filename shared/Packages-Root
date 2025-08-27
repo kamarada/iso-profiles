@@ -26,9 +26,8 @@ f2fs-tools                  # kamarada/features#62 - CLI - Filesystem utilities 
 >extra flatpak              # kamarada/features#54 - Flatpak support
 glibc-locales
 grub
-#hfsprogs                   # kamarada/features#62 - CLI - Filesystem utilities - hfs+
-#hfsutils                   # kamarada/features#62 - CLI - Filesystem utilities - hfs
-# TODO is it possible to include packages from the AUR?
+hfsprogs                    # kamarada/features#62 - CLI - Filesystem utilities - hfs+
+hfsutils                    # kamarada/features#62 - CLI - Filesystem utilities - hfs
 hdparm                      # kamarada/features#60 - CLI - Hardware utilities - hdparm
 hwinfo                      # kamarada/features#60 - CLI - Hardware utilities - hwinfo
 install-grub
