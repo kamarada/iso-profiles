@@ -101,8 +101,7 @@ bind                        # kamarada/features#59 - CLI - Network utilities - d
 curl                        # kamarada/features#59 - CLI - Network utilities - curl
 iproute2                    # kamarada/features#59 - CLI - Network utilities - ip and ss (netstat's replacement)
 iputils                     # kamarada/features#59 - CLI - Network utilities - ping and tracepath
-#joe                        # kamarada/features#37 - CLI - Text editor
-# TODO is it possible to include packages from the AUR?
+joe                         # kamarada/features#37 - CLI - Text editor
 mutt                        # kamarada/features#59 - CLI - Network utilities - mutt
 nmap                        # kamarada/features#59 - CLI - Network utilities - nmap
 openbsd-netcat              # kamarada/features#59 - CLI - Network utilities - nc (netcat)
