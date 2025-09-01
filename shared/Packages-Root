@@ -68,7 +68,7 @@ pciutils                    # kamarada/features#60 - CLI - Hardware utilities - 
 perl
 procps-ng                   # kamarada/features#60 - CLI - Hardware utilities - free, top
 #reiser4progs               # kamarada/features#62 - CLI - Filesystem utilities - reiser4
-#reiserfsprogs              # kamarada/features#62 - CLI - Filesystem utilities - reiserfs
+reiserfsprogs               # kamarada/features#62 - CLI - Filesystem utilities - reiserfs
 rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
 s-nail                      # kamarada/features#59 - CLI - Network utilities - mailx
 sbctl
