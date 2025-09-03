@@ -72,8 +72,8 @@ pamac-gtk                           # kamarada/features#26 - GUI - System - Pack
 #>extra evince                             # required by sushi; evince soon to be replaced by papers
 >extra papers                       # kamarada/features#15 - GUI - Utilities - Document viewer
 gdm
-gnome-backgrounds
-gnome-calculator                    # kamarada/features#3 - GUI - Accessories - Calculator
+>extra gnome-backgrounds
+>extra gnome-calculator             # kamarada/features#3 - GUI - Accessories - Calculator
 >extra gnome-calendar               # kamarada/features#12 - GUI - Office - Calendar
 >extra gnome-characters             # kamarada/features#20 - GUI - GNOME Core Apps
 >extra gnome-clocks                 # kamarada/features#20 - GUI - GNOME Core Apps
@@ -95,7 +95,7 @@ gnome-control-center                # kamarada/features#20 - GUI - GNOME Core Ap
 gnome-shell
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
-gnome-system-monitor                # kamarada/features#9 - GUI - Utilities - System monitor
+>extra gnome-system-monitor         # kamarada/features#9 - GUI - Utilities - System monitor
 gnome-text-editor                   # kamarada/features#4 - GUI - Accessories - Text editor
 #>extra gnome-tour                  # won't be included
 >extra gnome-user-docs
@@ -138,7 +138,7 @@ xdg-user-dirs-gtk                   # kamarada/features#39 - XDG user directorie
 >extra endeavour
 #eog                               # loupe included instead
 >extra evolution                    # kamarada/features#11 - GUI - Internet - E-mail client
-file-roller                         # kamarada/features#7 - GUI - Utilities - Archive manager
+>extra file-roller                  # kamarada/features#7 - GUI - Utilities - Archive manager
 #>extra geary                      # evolution included instead
 #gedit                             # using gnome-text-editor for now
 #ghex
@@ -225,7 +225,7 @@ plymouth-theme-manjaro
 >extra deja-dup
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
-firefox                             # kamarada/features#5 - GUI - Internet - Web browser
+>extra firefox                      # kamarada/features#5 - GUI - Internet - Web browser
 fprintd                            # needed for fingerprint reader, optional for gdm
 #fwupd                             # required by gnome-firmware, optional for gnome-control-center
 >extra fragments
@@ -262,17 +262,17 @@ power-profiles-daemon              # optional for gnome-control-center
 
 
 ## Optional dependencies for file-roller
-7zip                                # kamarada/features#8 - CLI - Archiving programs
+>extra 7zip                         # kamarada/features#8 - CLI - Archiving programs
 >extra squashfs-tools
 >extra unace
 >extra unrar
-file-roller                         # kamarada/features#7 - GUI - Utilities - Archive
+>extra file-roller                  # kamarada/features#7 - GUI - Utilities - Archive
 #rar                                # kamarada/features#8 - CLI - Archiving programs
 # rar cannot be freely redistributed because it is proprietary software
 tar                                 # kamarada/features#8 - CLI - Archiving programs
-unrar                               # kamarada/features#8 - CLI - Archiving programs
+>extra unrar                        # kamarada/features#8 - CLI - Archiving programs
 unzip                               # kamarada/features#8 - CLI - Archiving programs
-zip                                 # kamarada/features#8 - CLI - Archiving programs
+>extra zip                          # kamarada/features#8 - CLI - Archiving programs
 
 
 ## Optional dependencies for inxi
@@ -329,7 +329,7 @@ xorg-server                        # required by gdm
 >extra pidgin                       # kamarada/features#45 - GUI - Internet - Instant messaging client
 >extra purple-plugin-pack           # kamarada/features#45 - GUI - Internet - Instant messaging client
 >extra transmission-gtk             # kamarada/features#30 - GUI - Internet - BitTorrent client
-vlc                                 # kamarada/features#6 - GUI - Sound & Video - Media player
+>extra vlc                          # kamarada/features#6 - GUI - Sound & Video - Media player
 >extra wine                         # kamarada/features#44 - Wine
 >extra wine-gecko                   # kamarada/features#44 - Wine
 >extra wine-mono                    # kamarada/features#44 - Wine

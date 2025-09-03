@@ -5,7 +5,7 @@ base
 acpi
 acpid
 amd-ucode
-bcachefs-tools              # kamarada/features#62 - CLI - Filesystem utilities - bcachefs
+>extra bcachefs-tools       # kamarada/features#62 - CLI - Filesystem utilities - bcachefs
 b43-fwcutter
 btrfs-progs                 # kamarada/features#62 - CLI - Filesystem utilities - btrfs
 coreutils                   # kamarada/features#60 - CLI - Hardware utilities - df
@@ -14,27 +14,27 @@ cronie
 cryptsetup                  # kamarada/features#62 - CLI - Filesystem utilities - luks
 device-mapper               # kamarada/features#62 - CLI - Filesystem utilities - luks
 diffutils
-dmidecode                   # kamarada/features#60 - CLI - Hardware utilities - dmidecode
+>extra dmidecode            # kamarada/features#60 - CLI - Hardware utilities - dmidecode
 dmraid
 dnsmasq
-dosfstools                  # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
+>extra dosfstools           # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
 e2fsprogs                   # kamarada/features#62 - CLI - Filesystem utilities - ext2, ext3, ext4
 ecryptfs-utils
 efibootmgr
-exfatprogs                  # kamarada/features#62 - CLI - Filesystem utilities - exfat
-f2fs-tools                  # kamarada/features#62 - CLI - Filesystem utilities - f2fs
+>extra exfatprogs           # kamarada/features#62 - CLI - Filesystem utilities - exfat
+>extra f2fs-tools           # kamarada/features#62 - CLI - Filesystem utilities - f2fs
 >extra flatpak              # kamarada/features#54 - Flatpak support
 glibc-locales
 grub
-hfsprogs                    # kamarada/features#62 - CLI - Filesystem utilities - hfs+
-hfsutils                    # kamarada/features#62 - CLI - Filesystem utilities - hfs
+>extra hfsprogs             # kamarada/features#62 - CLI - Filesystem utilities - hfs+
+>extra hfsutils             # kamarada/features#62 - CLI - Filesystem utilities - hfs
 hdparm                      # kamarada/features#60 - CLI - Hardware utilities - hdparm
 hwinfo                      # kamarada/features#60 - CLI - Hardware utilities - hwinfo
 install-grub
 inetutils                   # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
 intel-ucode
-inxi                        # kamarada/features#60 - CLI - Hardware utilities - inxi
-jfsutils                    # kamarada/features#62 - CLI - Filesystem utilities - jfs
+>extra inxi                 # kamarada/features#60 - CLI - Hardware utilities - inxi
+>extra jfsutils             # kamarada/features#62 - CLI - Filesystem utilities - jfs
 KERNEL
 less
 >extra links                # kamarada/features#52 - CLI - Web browser
@@ -42,8 +42,8 @@ lm_sensors                  # kamarada/features#60 - CLI - Hardware utilities - 
 wireless-regdb
 linux-firmware
 logrotate
-lshw                        # kamarada/features#60 - CLI - Hardware utilities - lshw
-lvm2                        # kamarada/features#62 - CLI - Filesystem utilities - lvm2 pv
+>extra lshw                 # kamarada/features#60 - CLI - Hardware utilities - lshw
+>extra lvm2                 # kamarada/features#62 - CLI - Filesystem utilities - lvm2 pv
 man-db
 man-pages
 manjaro-release
@@ -56,7 +56,7 @@ mhwd
 mhwd-db
 >extra micro
 mkinitcpio-openswap
-mtools                      # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
+>extra mtools               # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
 nano                        # kamarada/features#37 - CLI - Text editor
 nano-syntax-highlighting
 networkmanager
@@ -68,9 +68,9 @@ pciutils                    # kamarada/features#60 - CLI - Hardware utilities - 
 perl
 procps-ng                   # kamarada/features#60 - CLI - Hardware utilities - free, top
 #reiser4progs               # kamarada/features#62 - CLI - Filesystem utilities - reiser4
-reiserfsprogs               # kamarada/features#62 - CLI - Filesystem utilities - reiserfs
+>extra reiserfsprogs        # kamarada/features#62 - CLI - Filesystem utilities - reiserfs
 rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
-s-nail                      # kamarada/features#59 - CLI - Network utilities - mailx
+>extra s-nail               # kamarada/features#59 - CLI - Network utilities - mailx
 sbctl
 sof-firmware
 sudo
@@ -79,8 +79,8 @@ texinfo
 >extra tor                  # kamarada/features#53 - Tor support
 update-grub
 udev-usb-sync
-udftools                    # kamarada/features#62 - CLI - Filesystem utilities - udf
-usbutils                    # kamarada/features#60 - CLI - Hardware utilities - lsusb
+>extra udftools             # kamarada/features#62 - CLI - Filesystem utilities - udf
+>extra usbutils             # kamarada/features#60 - CLI - Hardware utilities - lsusb
 
 util-linux                  # kamarada/features#60 - CLI - Hardware utilities - blkid, fdisk, lsblk, lscpu
                             # kamarada/features#62 - CLI - Filesystem utilities - linux-swap, minix
@@ -91,20 +91,20 @@ wget                        # kamarada/features#59 - CLI - Network utilities - w
 which
 wireless-regdb
 wpa_supplicant
-xfsdump                     # kamarada/features#62 - CLI - Filesystem utilities - xfs
-xfsprogs                    # kamarada/features#62 - CLI - Filesystem utilities - xfs
+>extra xfsdump              # kamarada/features#62 - CLI - Filesystem utilities - xfs
+>extra xfsprogs             # kamarada/features#62 - CLI - Filesystem utilities - xfs
 
 # Other (added by Linux Kamarada)
 
-bind                        # kamarada/features#59 - CLI - Network utilities - dig, host and nslookup
+>extra bind                 # kamarada/features#59 - CLI - Network utilities - dig, host and nslookup
 curl                        # kamarada/features#59 - CLI - Network utilities - curl
 iproute2                    # kamarada/features#59 - CLI - Network utilities - ip and ss (netstat's replacement)
 iputils                     # kamarada/features#59 - CLI - Network utilities - ping and tracepath
-joe                         # kamarada/features#37 - CLI - Text editor
-mutt                        # kamarada/features#59 - CLI - Network utilities - mutt
-nmap                        # kamarada/features#59 - CLI - Network utilities - nmap
-openbsd-netcat              # kamarada/features#59 - CLI - Network utilities - nc (netcat)
-screen                      # kamarada/features#59 - CLI - Network utilities - screen
-tcpdump                     # kamarada/features#59 - CLI - Network utilities - tcpdump
-traceroute                  # kamarada/features#59 - CLI - Network utilities - traceroute
-whois                       # kamarada/features#59 - CLI - Network utilities - whois
+>extra joe                  # kamarada/features#37 - CLI - Text editor
+>extra mutt                 # kamarada/features#59 - CLI - Network utilities - mutt
+>extra nmap                 # kamarada/features#59 - CLI - Network utilities - nmap
+>extra openbsd-netcat       # kamarada/features#59 - CLI - Network utilities - nc (netcat)
+>extra screen               # kamarada/features#59 - CLI - Network utilities - screen
+>extra tcpdump              # kamarada/features#59 - CLI - Network utilities - tcpdump
+>extra traceroute           # kamarada/features#59 - CLI - Network utilities - traceroute
+>extra whois                # kamarada/features#59 - CLI - Network utilities - whois
