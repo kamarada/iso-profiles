@@ -208,7 +208,7 @@ grub-theme-manjaro
 >extra kvantum-manjaro
 #>extra illyria-wallpaper
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
-manjaro-gnome-backgrounds
+kamarada-gnome-backgrounds          # kamarada/features#36 - GUI - Artwork
 #>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
 plymouth-theme-manjaro
@@ -288,8 +288,8 @@ mesa-utils
 #>extra lighter-gnome
 manjaro-base-skel
 manjaro-browser-settings
->extra manjaro-gnome-extension-settings
-manjaro-gnome-settings
+kamarada-gnome-extension-settings   # kamarada/features#36 - GUI - Artwork
+kamarada-gnome-settings             # kamarada/features#36 - GUI - Artwork
 >extra manjaro-settings-samba
 
 
