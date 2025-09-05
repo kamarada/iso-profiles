@@ -8,6 +8,7 @@ amd-ucode
 >extra bcachefs-tools       # kamarada/features#62 - CLI - Filesystem utilities - bcachefs
 b43-fwcutter
 btrfs-progs                 # kamarada/features#62 - CLI - Filesystem utilities - btrfs
+>extra ca-certificates-icp_br   # kamarada/features#50 - Certificado de segurança da AC raiz brasileira (ICP-Brasil)
 coreutils                   # kamarada/features#60 - CLI - Hardware utilities - df
 cpupower
 cronie
