@@ -210,7 +210,8 @@ grub-theme-manjaro
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
 kamarada-gnome-backgrounds          # kamarada/features#36 - GUI - Artwork
 #>extra manjaro-wallpapers-18.0
-papirus-maia-icon-theme
+papirus-folders                     # kamarada/features#36 - GUI - Artwork
+papirus-icon-theme-kamarada         # kamarada/features#36 - GUI - Artwork
 plymouth-theme-manjaro
 >extra qt5ct
 >extra qt6ct
