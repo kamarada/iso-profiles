@@ -78,6 +78,7 @@ sudo
 sysfsutils
 texinfo
 >extra tor                  # kamarada/features#53 - Tor support
+tree
 update-grub
 udev-usb-sync
 >extra udftools             # kamarada/features#62 - CLI - Filesystem utilities - udf
