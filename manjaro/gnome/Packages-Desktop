@@ -211,7 +211,7 @@ kamarada-gnome-backgrounds          # kamarada/features#36 - GUI - Artwork
 #>extra manjaro-wallpapers-18.0
 papirus-folders                     # kamarada/features#36 - GUI - Artwork
 papirus-icon-theme-kamarada         # kamarada/features#36 - GUI - Artwork
-plymouth-theme-manjaro
+plymouth-theme-kamarada             # kamarada/features#36 - GUI - Artwork
 >extra qt5ct
 >extra qt6ct
 #>extra wallpapers-2018
