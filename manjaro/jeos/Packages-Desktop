@@ -1,0 +1,335 @@
+## Network
+
+avahi                               # kamarada/features#41 - Printing support
+>extra manjaro-modem
+networkmanager                     # optional for gnome-control-center
+>extra networkmanager-openconnect
+>extra networkmanager-openvpn
+>extra network-manager-sstp
+>extra networkmanager-strongswan
+>extra networkmanager-vpnc
+>extra modemmanager                # optional for networkmanager
+>extra nss-mdns                    # optional for avahi; avahi required by gvfs
+#ntp
+>extra openssh                     # optional for gnome-control-center
+#usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
+
+
+## Bluetooth
+
+>extra bluez                        # kamarada/features#42 - Bluetooth support
+>extra bluez-obex                   # kamarada/features#42 - Bluetooth support
+>extra bluez-utils                  # kamarada/features#42 - Bluetooth support
+
+
+## Btrfs
+
+btrfsmaintenance
+grub-btrfs
+>extra timeshift-autosnap-manjaro
+
+
+## Libraries for Sound/Audio/Video
+
+>extra libdvdcss
+>extra manjaro-alsa
+>extra manjaro-gstreamer
+>extra manjaro-pipewire
+
+
+## Fonts
+
+#adwaita-fonts                     # required by gsettings-desktop-schemas
+noto-fonts                         # default font, provides ttf-font
+>extra noto-fonts-cjk              # Asian fonts, optional for noto-fonts
+>extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
+>extra noto-fonts-extra            # additional languages, optional for noto-fonts
+>extra ttf-dejavu                  # provides ttf-font, improved Arabic fonts
+ttf-hack-nerd                      # default monospace font
+ttf-meslo-nerd-font-powerlevel10k  # default GNOME Console font for manjaro-zsh-config
+>extra ttf-indic-otf               # India fonts
+
+
+## Package management
+
+pamac-gnome-integration
+>extra pamac-flatpak-plugin
+pamac-gtk                           # kamarada/features#26 - GUI - System - Package updater
+#>extra pamac-snap-plugin
+
+
+## Printing
+
+>extra manjaro-printer              # kamarada/features#41 - Printing support
+>extra system-config-printer        # kamarada/features#41 - Printing support
+
+
+## GNOME group
+
+>extra baobab                       # kamarada/features#20 - GUI - GNOME Core Apps
+#>extra decibels                    # vlc included instead
+#epiphany                          # Firefox included as default browser
+#>extra evince                             # required by sushi; evince soon to be replaced by papers
+>extra papers                       # kamarada/features#15 - GUI - Utilities - Document viewer
+gdm
+>extra gnome-backgrounds
+>extra gnome-calculator             # kamarada/features#3 - GUI - Accessories - Calculator
+>extra gnome-calendar               # kamarada/features#12 - GUI - Office - Calendar
+>extra gnome-characters             # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-clocks                 # kamarada/features#20 - GUI - GNOME Core Apps
+#gnome-color-manager               # required by gnome-control-center
+>extra gnome-connections            # kamarada/features#35 - GUI - Utilities - Remote desktop client
+gnome-console                       # kamarada/features#1 - GUI - System - Terminal
+>extra gnome-contacts               # kamarada/features#13 - GUI - Office - Address book
+gnome-control-center                # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-disk-utility           # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-font-viewer            # kamarada/features#20 - GUI - GNOME Core Apps
+#gnome-keyring                     # required by xdg-desktop-portal-gnome
+>extra gnome-logs                   # kamarada/features#20 - GUI - GNOME Core Apps
+>extra gnome-maps                   # kamarada/features#20 - GUI - GNOME Core Apps
+#gnome-menus                       # optional for gnome-shell-extension-arc-menu
+#gnome-music                        # vlc included instead
+>extra gnome-remote-desktop        # optional for gnome-control-center
+#gnome-session                     # required by gdm & gnome-shell
+#gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
+gnome-shell
+gnome-shell-extensions
+#gnome-software                    # pamac-gtk used instead
+>extra gnome-system-monitor         # kamarada/features#9 - GUI - Utilities - System monitor
+gnome-text-editor                   # kamarada/features#4 - GUI - Accessories - Text editor
+#>extra gnome-tour                  # won't be included
+>extra gnome-user-docs
+>extra gnome-user-share            # optional for gnome-control-center
+>extra gnome-weather
+>extra grilo-plugins               # optional for totem
+gvfs
+>extra gvfs-afc
+>extra gvfs-dnssd
+#>extra gvfs-goa                   # required by gvfs-google, optional for gnome-online-accounts
+>extra gvfs-google                 # optional for gnome-online-accounts
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-onedrive               # optional for gnome-online-accounts
+>extra gvfs-smb
+>extra gvfs-wsdd
+>extra loupe                        # kamarada/features#17 - GUI - Utilities - Image viewer
+>extra malcontent                         # optional for gnome-control-center
+nautilus                            # kamarada/features#2 - GUI - Accessories - File manager
+#orca
+>extra rygel                       # optional for gnome-control-center
+>extra simple-scan                  # kamarada/features#16 - GUI - Graphics - Scanning
+>extra snapshot                     # kamarada/features#19 - GUI - Sound & Video - Webcam application
+>extra sushi
+#tecla                             # required by gnome-control-center
+#>extra totem                       # vlc included instead
+#xdg-desktop-portal-gnome          # required by gnome-session
+xdg-user-dirs-gtk                   # kamarada/features#39 - XDG user directories
+>extra yelp                         # kamarada/features#20 - GUI - GNOME Core Apps
+
+
+## GNOME Extra applications
+
+#accerciser
+#cheese                            # snapshot included instead
+#d-spy                             # developer tools
+#>extra dconf-editor               # developer tools
+#devhelp                           # developer tools
+>extra endeavour
+#eog                               # loupe included instead
+>extra evolution                    # kamarada/features#11 - GUI - Internet - E-mail client
+>extra file-roller                  # kamarada/features#7 - GUI - Utilities - Archive manager
+#>extra geary                      # evolution included instead
+#gedit                             # using gnome-text-editor for now
+#ghex
+#gitg
+#glade
+>extra gnome-boxes                 # developer tools
+#gnome-builder                     # developer tools
+#gnome-devel-docs
+#gnome-dictionary
+#gnome-games
+#gnome-multi-writer
+#gnome-notes
+#gnome-photos
+#gnome-recipes
+>extra gnome-sound-recorder         # kamarada/features#18 - GUI - Sound & Video - Sound recorder
+#gnome-terminal                   # gnome-console used instead
+gnome-tweaks                        # kamarada/features#22 - GUI - Utilities - Tweaks
+#gnome-usage
+#polari
+>extra seahorse                     # kamarada/features#28 - GUI - Utilities - Password manager
+#sysprof                           # developer tools
+
+
+## GNOME Extra games
+
+>extra aisleriot                    # kamarada/features#23 - GUI - Games - Aisleriot (Solitaire)
+#gnome-2048
+>extra gnome-chess                  # kamarada/features#23 - GUI - Games - Chess
+#gnome-klotski
+>extra gnome-mahjongg               # kamarada/features#23 - GUI - Games - Mahjongg
+>extra gnome-mines                  # kamarada/features#23 - GUI - Games - Mines
+>extra gnome-nibbles                # kamarada/features#23 - GUI - Games - Sudoku
+#gnome-robots
+>extra gnome-sudoku                 # kamarada/features#23 - GUI - Games - Nibbles (Snake)
+#gnome-taquin
+#gnome-tetravex
+#hitori
+>extra iagno                        # kamarada/features#23 - GUI - Games - Iagno (Reversi)
+#lightsoff
+>extra quadrapassel                 # kamarada/features#23 - GUI - Games - Quadrapassel (Tetris)
+#swell-foop
+#tali
+
+
+## GNOME Shell Extensions
+
+>extra gnome-shell-extension-appindicator
+>extra gnome-shell-extension-arc-menu
+>extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-dash-to-panel
+>extra gnome-shell-extension-forge
+>extra gnome-shell-extension-gtk4-desktop-icons-ng
+>extra gnome-shell-extension-gnome-ui-tune
+>extra gnome-shell-extension-gsconnect  # kamarada/features#58 - GSConnect
+>extra gnome-shell-extension-legacy-theme-auto-switcher
+>extra gnome-shell-extension-space-bar
+
+
+## Themes
+
+adw-gtk-theme
+bibata-cursor-theme
+gnome-themes-extra                 # optional for gtk2
+#gnome-wallpapers
+grub-theme-manjaro
+>extra kvantum-manjaro
+#>extra illyria-wallpaper
+#manjaro-gdm-theme                 # Needs updating for GNOME 42
+kamarada-gnome-backgrounds          # kamarada/features#36 - GUI - Artwork
+#>extra manjaro-wallpapers-18.0
+papirus-folders                     # kamarada/features#36 - GUI - Artwork
+papirus-icon-theme-kamarada         # kamarada/features#36 - GUI - Artwork
+plymouth-theme-kamarada             # kamarada/features#36 - GUI - Artwork
+>extra qt5ct
+>extra qt6ct
+#>extra wallpapers-2018
+#>extra wallpapers-juhraya
+
+
+## Applications
+
+>extra apparmor
+>extra collision
+>extra deja-dup
+>extra ffmpegthumbnailer
+>extra ffmpeg-audio-thumbnailer
+>extra firefox                      # kamarada/features#5 - GUI - Internet - Web browser
+fprintd                            # needed for fingerprint reader, optional for gdm
+#fwupd                             # required by gnome-firmware, optional for gnome-control-center
+>extra fragments
+gnome-browser-connector
+>extra gnome-firmware
+>extra gnome-layout-switcher
+>extra gnuchess                    # optional for gnome-chess to play against computer
+>extra gparted                      # kamarada/features#25 - GUI - System - Partition manager
+>extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
+>extra gufw
+>extra htop
+ibus
+inxi
+#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
+>extra lollypop
+>extra manjaro-application-utility        # optional for manjaro-hello
+#manjaro-gnome-vanilla             # unmaintained, needs updating
+>extra manjaro-hello
+>extra manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+#mousetweaks
+>extra nautilus-admin
+nautilus-empty-file
+nautilus-open-any-terminal
+#>extra onlyoffice-desktopeditors  # office program is chosen during install
+#polkit-gnome                      # deprecated
+power-profiles-daemon              # optional for gnome-control-center
+#>extra thunderbird                # evolution included instead
+>extra timeshift                    # kamarada/features#34 - GUI - System - System recovery
+#tlp                               # conflicts with power-profiles-daemon
+#>extra touche                     # only works with Xorg
+>extra webapp-manager
+#xdg-utils                         # already a dependency of anything that requires it
+
+
+## Optional dependencies for file-roller
+>extra 7zip                         # kamarada/features#8 - CLI - Archiving programs
+>extra squashfs-tools
+>extra unace
+>extra unrar
+>extra file-roller                  # kamarada/features#7 - GUI - Utilities - Archive
+#rar                                # kamarada/features#8 - CLI - Archiving programs
+# rar cannot be freely redistributed because it is proprietary software
+tar                                 # kamarada/features#8 - CLI - Archiving programs
+>extra unrar                        # kamarada/features#8 - CLI - Archiving programs
+unzip                               # kamarada/features#8 - CLI - Archiving programs
+>extra zip                          # kamarada/features#8 - CLI - Archiving programs
+
+
+## Optional dependencies for inxi
+dmidecode
+mesa-utils
+
+
+## Documentation
+#manjaro-documentation-en
+
+
+## Settings packages
+#>extra lighter-gnome
+manjaro-base-skel
+manjaro-browser-settings
+kamarada-gnome-extension-settings   # kamarada/features#36 - GUI - Artwork
+kamarada-gnome-settings             # kamarada/features#36 - GUI - Artwork
+>extra manjaro-settings-samba
+
+
+## Xorg Input Drivers
+>extra manjaro-input
+
+## Xorg Server
+#numlockx                          # not used and not needed
+#xorg-mkfontscale                  # not needed by anything
+xorg-server                        # required by gdm
+#xorg-twm                          # antiquated; optional for xorg-xinit
+#xorg-xinit                        # not needed by anything
+
+
+## Other
+
+>extra pcsclite                     # kamarada/features#43 - Smart card support
+
+
+## Other (added by Linux Kamarada)
+
+>extra brasero                      # kamarada/features#29 - GUI - Sound & Video - CD/DVD burner
+>extra ccid                         # kamarada/features#43 - Smart card support
+>extra chromium                     # kamarada/features#5 - GUI - Internet - Web browser
+>extra drawing                      # kamarada/features#31 - GUI - Graphics - Drawing
+>extra gnome-power-manager          # kamarada/features#33 - GUI - System - Power statistics
+>extra gnome-shell-extension-lockkeys   # kamarada/features#61 - Lock Keys
+>extra hplip                        # kamarada/features#41 - Printing support
+>extra icoextract                   # kamarada/features#44 - Wine
+>extra imagewriter                  # kamarada/features#27 - GUI - System - Image writer
+>extra keepassxc                    # kamarada/features#28 - GUI - Utilities - Password manager
+>extra libreoffice-still-pt-br      # kamarada/features#14 - GUI - Office - Office suite
+>extra nm-connection-editor         # kamarada/features#57 - GUI - Utilities - Advanced Network Configuration
+>extra opensc                       # kamarada/features#43 - Smart card support
+>extra pcsc-tools                   # kamarada/features#43 - Smart card support
+>extra pdfsam                       # kamarada/features#32 - GUI - Office - PDFsam
+>extra pidgin                       # kamarada/features#45 - GUI - Internet - Instant messaging client
+>extra purple-plugin-pack           # kamarada/features#45 - GUI - Internet - Instant messaging client
+>extra transmission-gtk             # kamarada/features#30 - GUI - Internet - BitTorrent client
+>extra vlc                          # kamarada/features#6 - GUI - Sound & Video - Media player
+>extra wine                         # kamarada/features#44 - Wine
+>extra wine-gecko                   # kamarada/features#44 - Wine
+>extra wine-mono                    # kamarada/features#44 - Wine
