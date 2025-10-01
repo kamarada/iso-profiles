@@ -1,15 +1,7 @@
->extra btrfs-assistant
-calamares
->extra clonezilla
 grub-theme-live-manjaro
->extra gsmartcontrol
-#manjaro-architect
 manjaro-live-skel
 manjaro-live-systemd
->extra manjaro-rescue
 mkinitcpio-nfs-utils
 nbd
->extra snapper-gui
 testdisk
->extra timeshift
 virtualbox-guest-utils
