@@ -203,7 +203,7 @@ adw-gtk-theme
 bibata-cursor-theme
 gnome-themes-extra                 # optional for gtk2
 #gnome-wallpapers
-grub-theme-manjaro
+grub-theme-kamarada
 >extra kvantum-manjaro
 #>extra illyria-wallpaper
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
