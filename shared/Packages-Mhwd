@@ -4,20 +4,20 @@
 
 ## Normal MHWD package list
 
-KERNEL-bbswitch
-KERNEL-broadcom-wl
+>extra KERNEL-bbswitch
+>extra KERNEL-broadcom-wl
 #KERNEL-r8168
 #KERNEL-zfs
 #zfs-utils # only used for architect which we don't ship
 #KERNEL-rt3562sta
 #KERNEL-virtualbox-guest-modules
-KERNEL-headers
+>extra KERNEL-headers
 #zfs-dkms
-libva-intel-driver
-libva-mesa-driver
-libxaw
-libxpm
-libxvmc
+>extra libva-intel-driver
+>extra libva-mesa-driver
+>extra libxaw
+>extra libxpm
+>extra libxvmc
 >multilib lib32-libxvmc
 >multilib lib32-primus
 >nonfree_x86_64 KERNEL-nvidia-390xx
@@ -47,22 +47,22 @@ libxvmc
 >nonfree_multilib lib32-nvidia-570xx-utils
 >nonfree_multilib lib32-nvidia-575xx-utils
 open-vm-tools
-primus
-qemu-guest-agent
-bumblebee
-nvidia-prime
-gtkmm3
-spice-vdagent
+>extra primus
+>extra qemu-guest-agent
+>extra bumblebee
+>extra nvidia-prime
+>extra gtkmm3
+>extra spice-vdagent
 virtualbox-guest-utils
-vulkan-mesa-layers
-vulkan-swrast
-vulkan-virtio
-vulkan-icd-loader
-vulkan-radeon
+>extra vulkan-mesa-layers
+>extra vulkan-swrast
+>extra vulkan-virtio
+>extra vulkan-icd-loader
+>extra vulkan-radeon
 >multilib lib32-vulkan-radeon
-vulkan-intel
+>extra vulkan-intel
 >multilib lib32-vulkan-intel
-vulkan-nouveau
+>extra vulkan-nouveau
 >multilib lib32-vulkan-nouveau
 xf86-input-vmmouse
 xf86-video-amdgpu
