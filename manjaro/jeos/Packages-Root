@@ -2,37 +2,37 @@
 base
 
 # Manjaro
-amd-ucode
-coreutils                   # kamarada/features#60 - CLI - Hardware utilities - df
-diffutils
-efibootmgr
+#amd-ucode
+#coreutils                   # kamarada/features#60 - CLI - Hardware utilities - df
+#diffutils
+#efibootmgr
 grub
-install-grub
-inetutils                   # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
-intel-ucode
+#install-grub
+#inetutils                   # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
+#intel-ucode
 KERNEL
-less
-manjaro-release
-manjaro-system
-manjaro-zsh-config
-memtest86+
-networkmanager
-os-prober
-pciutils                    # kamarada/features#60 - CLI - Hardware utilities - lspci
-perl
-procps-ng                   # kamarada/features#60 - CLI - Hardware utilities - free, top
-rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
-sudo
-tree
-update-grub
-util-linux                  # kamarada/features#60 - CLI - Hardware utilities - blkid, fdisk, lsblk, lscpu
+#less
+#manjaro-release
+#manjaro-system
+#manjaro-zsh-config
+#memtest86+
+#networkmanager
+#os-prober
+#pciutils                    # kamarada/features#60 - CLI - Hardware utilities - lspci
+#perl
+#procps-ng                   # kamarada/features#60 - CLI - Hardware utilities - free, top
+#rsync                       # kamarada/features#59 - CLI - Network utilities - rsync
+#sudo
+#tree
+#update-grub
+#util-linux                  # kamarada/features#60 - CLI - Hardware utilities - blkid, fdisk, lsblk, lscpu
                             # kamarada/features#62 - CLI - Filesystem utilities - linux-swap, minix
-vi                          # kamarada/features#37 - CLI - Text editor
-vim                         # kamarada/features#37 - CLI - Text editor
-wget                        # kamarada/features#59 - CLI - Network utilities - wget
-which
+#vi                          # kamarada/features#37 - CLI - Text editor
+#vim                         # kamarada/features#37 - CLI - Text editor
+#wget                        # kamarada/features#59 - CLI - Network utilities - wget
+#which
 
 # Other (added by Linux Kamarada)
 
-iproute2                    # kamarada/features#59 - CLI - Network utilities - ip and ss (netstat's replacement)
-iputils                     # kamarada/features#59 - CLI - Network utilities - ping and tracepath
+#iproute2                    # kamarada/features#59 - CLI - Network utilities - ip and ss (netstat's replacement)
+#iputils                     # kamarada/features#59 - CLI - Network utilities - ping and tracepath
