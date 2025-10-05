@@ -1,0 +1,6 @@
+# Just for buildiso to create the pkgs.txt file
+
+iproute2    # ip
+iputils     # ping
+openssh     # scp, ssh
+rsync
