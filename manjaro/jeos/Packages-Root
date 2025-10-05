@@ -6,7 +6,7 @@ base
 #coreutils                   # kamarada/features#60 - CLI - Hardware utilities - df
 #diffutils
 #efibootmgr
-#grub
+grub
 #install-grub
 #inetutils                   # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
 #intel-ucode
