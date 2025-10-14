@@ -1,15 +1,16 @@
->extra btrfs-assistant
-calamares-kamarada
->extra clonezilla
-grub-theme-live-kamarada
->extra gsmartcontrol
+btrfs-assistant
+calamares
+clonezilla
+gparted
+grub-theme-live-manjaro
+gsmartcontrol
 #manjaro-architect
 manjaro-live-skel
 manjaro-live-systemd
->extra manjaro-rescue
+manjaro-rescue
 mkinitcpio-nfs-utils
 nbd
->extra snapper-gui
+snapper-gui
 testdisk
->extra timeshift
+timeshift
 virtualbox-guest-utils

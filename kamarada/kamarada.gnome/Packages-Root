@@ -1,0 +1,112 @@
+# Base
+base
+
+# Manjaro
+>extra acpi
+>extra acpid
+amd-ucode
+>extra bcachefs-tools               # kamarada/features#62 - CLI - Filesystem utilities - bcachefs
+>extra b43-fwcutter
+>extra btrfs-progs                  # kamarada/features#62 - CLI - Filesystem utilities - btrfs
+>extra ca-certificates-icp_br       # kamarada/features#50 - Certificado de segurança da AC raiz brasileira (ICP-Brasil)
+coreutils                           # kamarada/features#60 - CLI - Hardware utilities - df
+>extra cpupower
+>extra cronie
+>extra cryptsetup                   # kamarada/features#62 - CLI - Filesystem utilities - luks
+>extra device-mapper                # kamarada/features#62 - CLI - Filesystem utilities - luks
+diffutils
+>extra dmidecode                    # kamarada/features#60 - CLI - Hardware utilities - dmidecode
+>extra dmraid
+>extra dnsmasq
+>extra dosfstools                   # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
+>extra e2fsprogs                    # kamarada/features#62 - CLI - Filesystem utilities - ext2, ext3, ext4
+>extra ecryptfs-utils
+efibootmgr
+>extra exfatprogs                   # kamarada/features#62 - CLI - Filesystem utilities - exfat
+>extra f2fs-tools                   # kamarada/features#62 - CLI - Filesystem utilities - f2fs
+>extra flatpak                      # kamarada/features#54 - Flatpak support
+>extra glibc-locales
+grub
+>extra hfsprogs                     # kamarada/features#62 - CLI - Filesystem utilities - hfs+
+>extra hfsutils                     # kamarada/features#62 - CLI - Filesystem utilities - hfs
+>extra hdparm                       # kamarada/features#60 - CLI - Hardware utilities - hdparm
+>extra hwinfo                       # kamarada/features#60 - CLI - Hardware utilities - hwinfo
+install-grub
+inetutils                           # kamarada/features#59 - CLI - Network utilities - hostname, ftp, telnet
+intel-ucode
+>extra inxi                         # kamarada/features#60 - CLI - Hardware utilities - inxi
+>extra jfsutils                     # kamarada/features#62 - CLI - Filesystem utilities - jfs
+KERNEL
+less
+>extra links                        # kamarada/features#52 - CLI - Web browser
+>extra lm_sensors                   # kamarada/features#60 - CLI - Hardware utilities - sensors
+>extra wireless-regdb
+>extra linux-firmware
+>extra logrotate
+>extra lshw                         # kamarada/features#60 - CLI - Hardware utilities - lshw
+>extra lvm2                         # kamarada/features#62 - CLI - Filesystem utilities - lvm2 pv
+>extra man-db
+>extra man-pages
+manjaro-release
+manjaro-system
+manjaro-zsh-config
+>extra mdadm
+memtest86+
+>extra memtest86+-efi
+>extra mhwd
+>extra mhwd-db
+>extra micro
+>extra mkinitcpio-openswap
+>extra mtools                       # kamarada/features#62 - CLI - Filesystem utilities - fat16, fat32
+>extra nano                         # kamarada/features#37 - CLI - Text editor
+>extra nano-syntax-highlighting
+networkmanager
+>extra nfs-utils
+>extra nilfs-utils                  # kamarada/features#62 - CLI - Filesystem utilities - nilfs2
+>extra ntfs-3g                      # kamarada/features#62 - CLI - Filesystem utilities - ntfs
+os-prober
+pciutils                            # kamarada/features#60 - CLI - Hardware utilities - lspci
+perl
+procps-ng                           # kamarada/features#60 - CLI - Hardware utilities - free, top
+#reiser4progs                       # kamarada/features#62 - CLI - Filesystem utilities - reiser4
+>extra reiserfsprogs                # kamarada/features#62 - CLI - Filesystem utilities - reiserfs
+rsync                               # kamarada/features#59 - CLI - Network utilities - rsync
+>extra s-nail                       # kamarada/features#59 - CLI - Network utilities - mailx
+>extra sbctl
+>extra sof-firmware
+sudo
+>extra sysfsutils
+>extra texinfo
+>extra tor                          # kamarada/features#53 - Tor support
+tree
+update-grub
+>extra udev-usb-sync
+>extra udftools                     # kamarada/features#62 - CLI - Filesystem utilities - udf
+>extra usbutils                     # kamarada/features#60 - CLI - Hardware utilities - lsusb
+
+util-linux                          # kamarada/features#60 - CLI - Hardware utilities - blkid, fdisk, lsblk, lscpu
+                                    # kamarada/features#62 - CLI - Filesystem utilities - linux-swap, minix
+
+vi                                  # kamarada/features#37 - CLI - Text editor
+vim                                 # kamarada/features#37 - CLI - Text editor
+wget                                # kamarada/features#59 - CLI - Network utilities - wget
+which
+>extra wireless-regdb
+>extra wpa_supplicant
+>extra xfsdump                      # kamarada/features#62 - CLI - Filesystem utilities - xfs
+>extra xfsprogs                     # kamarada/features#62 - CLI - Filesystem utilities - xfs
+
+# Other (added by Linux Kamarada)
+
+>extra bind                         # kamarada/features#59 - CLI - Network utilities - dig, host and nslookup
+>extra curl                         # kamarada/features#59 - CLI - Network utilities - curl
+iproute2                            # kamarada/features#59 - CLI - Network utilities - ip and ss (netstat's replacement)
+iputils                             # kamarada/features#59 - CLI - Network utilities - ping and tracepath
+>extra joe                          # kamarada/features#37 - CLI - Text editor
+>extra mutt                         # kamarada/features#59 - CLI - Network utilities - mutt
+>extra nmap                         # kamarada/features#59 - CLI - Network utilities - nmap
+>extra openbsd-netcat               # kamarada/features#59 - CLI - Network utilities - nc (netcat)
+>extra screen                       # kamarada/features#59 - CLI - Network utilities - screen
+>extra tcpdump                      # kamarada/features#59 - CLI - Network utilities - tcpdump
+>extra traceroute                   # kamarada/features#59 - CLI - Network utilities - traceroute
+>extra whois                        # kamarada/features#59 - CLI - Network utilities - whois
