@@ -103,8 +103,7 @@ gnome-weather
 >extra grilo-plugins               # optional for totem
 gvfs
 >extra gvfs-afc
-#>extra gvfs-goa                   # required by gvfs-google
->extra gvfs-google                 # optional for gnome-online-accounts
+>extra gvfs-goa
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
@@ -201,7 +200,7 @@ gnome-tweaks
 
 adw-gtk-theme
 bibata-cursor-theme
-gnome-themes-extra                 # optional for gtk2
+gnome-themes-extra
 #gnome-wallpapers
 grub-theme-manjaro
 kvantum-manjaro

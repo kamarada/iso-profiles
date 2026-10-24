@@ -14,7 +14,6 @@ bison
 >extra blueman
 >extra bluez-utils
 bmenu
->extra cantarell-fonts
 clipit
 >extra deluge
 dfc
@@ -22,6 +21,7 @@ dmidecode
 >extra downgrade
 mupdf
 fakeroot
+firefox
 >extra ffmpeg
 >extra ffmpegthumbnailer
 >extra flac
@@ -48,7 +48,6 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
->extra hexchat
 htop
 inxi
 json-c
@@ -95,7 +94,6 @@ nss-mdns
 ntp
 openssh
 p7zip
-palemoon
 pamac
 patch
 patchutils
@@ -106,8 +104,9 @@ polkit-gnome
 >extra poppler-data
 powertop
 qt5ct
+qt6ct
 ranger
-sbxkb
+#sbxkb  ## dropped to AUR
 screenfetch
 >extra snapd
 speedtest-cli
@@ -132,7 +131,7 @@ w3m
 >extra wallpapers-juhraya
 wmutils
 >extra xarchiver
-#xautolock  ## dropped to AUR             
+#xautolock  ## dropped to AUR
 >extra xcursor-maia
 xdg-utils
 xdotool

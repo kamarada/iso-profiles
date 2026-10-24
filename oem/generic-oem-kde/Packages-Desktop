@@ -22,8 +22,6 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 manjaro-gstreamer
@@ -43,13 +41,12 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-adobe-source-han-sans-cn-fonts
+#adobe-source-han-sans-jp-fonts
+#adobe-source-han-sans-kr-fonts
+#adobe-source-han-sans-cn-fonts
 >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
@@ -117,6 +114,9 @@ xdg-desktop-portal-kde
 #plasma-welcome
 plasma-thunderbolt
 
+## Plasma OEM
+plasma-setup
+
 ## Themes QT/GTK/SDDM
 gnome-themes-extra
 #oxygen # needed to provide KDE system sounds
@@ -127,6 +127,10 @@ breeze5 # Fore Qt5 Breeze style
 breeze-gtk
 plymouth
 plymouth-theme-manjaro
+
+# needed by manjaro-application-utility
+# category icons(Browsers, Backup,etc)
+papirus-icon-theme
 
 ## KDE Applications
 ark
@@ -152,7 +156,7 @@ konsole
 ksystemlog
 kwalletmanager
 gwenview
-#partitionmanager
+partitionmanager
 >extra print-manager
 >extra skanlite
 spectacle
@@ -248,9 +252,4 @@ xdg-utils
 power-profiles-daemon
 
 ## Misc
->basic squashfs-tools
 
-## OEM
-calamares
-calamares-oem-modules
-calamares-oem-kde-settings

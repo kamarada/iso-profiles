@@ -94,8 +94,7 @@ gnome-weather
 gvfs
 >extra gvfs-afc
 >extra gvfs-dnssd
-#>extra gvfs-goa                   # required by gvfs-google, optional for gnome-online-accounts
->extra gvfs-google                 # optional for gnome-online-accounts
+>extra gvfs-goa                   # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
@@ -171,6 +170,7 @@ gnome-tweaks
 #dialect
 #eartag
 #elastic
+#errands
 #eyedropper
 #emblem
 #errands
@@ -203,7 +203,7 @@ gnome-tweaks
 #shortwave
 #solanum
 #switcheroo
->extra tangram
+#tangram
 #textpieces
 #tuba
 #valuta
@@ -225,6 +225,7 @@ gnome-shell-extensions
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
+>extra gnome-shell-extension-papirus-folders-colorizer
 >extra gnome-shell-extension-space-bar
 
 
@@ -232,14 +233,14 @@ gnome-shell-extensions
 
 adw-gtk-theme
 bibata-cursor-theme
-gnome-themes-extra                 # optional for gtk2
+gnome-themes-extra
 #gnome-wallpapers
 grub-theme-manjaro
 kvantum-manjaro
 #>extra illyria-wallpaper
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
-papirus-maia-icon-theme
+papirus-icon-theme
 plymouth-theme-manjaro
 qt5ct
 qt6ct
@@ -292,6 +293,8 @@ power-profiles-daemon              # optional for gnome-control-center
 #tlp                               # conflicts with power-profiles-daemon
 #totem                             # replaced with showtime
 #>extra touche                     # only works with Xorg
+>extra webapp-manager
+wl-clipboard                       # optional for micro, required for clipboard functionality on Wayland
 #xdg-utils                         # already a dependency of anything that requires it
 
 
@@ -321,15 +324,4 @@ manjaro-browser-settings
 manjaro-gnome-settings
 >extra manjaro-settings-samba
 
-
-## Xorg Input Drivers
->extra manjaro-input
-
-
-## Xorg Server
-#numlockx                          # not used and not needed
-#xorg-mkfontscale                  # not needed by anything
-xorg-server                        # optional for libgdm
-#xorg-twm                          # antiquated; optional for xorg-xinit
-#xorg-xinit                        # not needed by anything
 

@@ -62,7 +62,6 @@ patchutils
 subversion
 
 ## Fonts
-cantarell-fonts
 noto-fonts             # default font
 noto-fonts-cjk         # big package, ~76 mb compressed
 noto-fonts-emoji
@@ -124,12 +123,10 @@ orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
@@ -160,7 +157,6 @@ xcape
 manjaro-wallpapers-18.0
 wallpapers-2018
 wallpapers-juhraya
-gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
@@ -182,7 +178,6 @@ gimp
 gparted
 gufw
 audacious
-hexchat
 htop
 qpdfview
 inxi
@@ -195,7 +190,6 @@ manjaro-settings-manager-notifier
 mlocate
 mousepad
 mugshot
-pidgin
 powertop
 screenfetch
 poppler-data  # CKJ support for pdf
