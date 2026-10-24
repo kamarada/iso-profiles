@@ -9,7 +9,6 @@ manjaro-live-systemd
 >extra manjaro-rescue
 mkinitcpio-nfs-utils
 nbd
->extra snapper-gui
 testdisk
 >extra timeshift
 virtualbox-guest-utils
